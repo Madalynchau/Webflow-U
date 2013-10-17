@@ -5,7 +5,8 @@ body {
   line-height: 20px;
 }
 h1 {
-  margin: 10px 0px;
+  margin: 0px 0px 10px;
+  padding-top: 0px;
   font-family: Montserrat, sans-serif;
   color: white;
   font-size: 36px;
@@ -25,15 +26,22 @@ h3 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+  text-align: center;
 }
 h4 {
   margin: 10px 0px;
+  padding-top: 16px;
+  font-family: Georgia, serif;
+  color: #baa7c7;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 300;
+  text-align: center;
 }
 h5 {
-  margin: 10px 0px;
+  margin: 24px 0px -10px -2px;
+  padding: 20px 12px 0px 0px;
+  color: #a186bf;
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
@@ -46,9 +54,11 @@ h6 {
 }
 p {
   margin-bottom: 5px;
+  font-family: Georgia, serif;
   color: #a1a1a1;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 23px;
+  font-weight: 400;
 }
 .button {
   display: inline-block;
@@ -65,7 +75,9 @@ p {
   font-weight: 400;
 }
 .price-text {
-  color: #98919c;
+  margin-top: 25px;
+  padding-top: 1px;
+  color: white;
   font-size: 25px;
   line-height: 28px;
 }
@@ -73,7 +85,12 @@ p {
   background-color: #f5f6f7;
 }
 .section.price {
+  margin-top: 4px;
+  margin-right: 0px;
+  margin-left: -1px;
+  padding: 24px 2px 22px 0px;
   background-color: #745485;
+  background-image: none;
 }
 .section.hero {
   background-image: url(../images/hero-background.jpg);
@@ -81,6 +98,160 @@ p {
   background-size: cover;
   background-repeat: repeat repeat;
   background-attachment: scroll;
+}
+._1 {
+  margin: -20px 45px 1px 37px;
+  padding: 21px 0px 16px 7px;
+  text-align: center;
+}
+.slate {
+  color: #534f57;
+}
+.slate.frame {
+  margin-top: 30px;
+  margin-left: -159px;
+  padding-right: 244px;
+  padding-left: 0px;
+  font-size: 21px;
+}
+.top-frame {
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left: 3px;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  padding-left: 0px;
+}
+.top-para {
+  padding-top: 25px;
+  font-family: Montserrat, sans-serif;
+  color: white;
+}
+.top-title {
+  padding-top: 152px;
+}
+.image-2 {
+  margin-bottom: 29px;
+  padding-top: 50px;
+}
+.iphon {
+  margin-top: 33px;
+  margin-bottom: -61px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+._3-row {
+  margin-bottom: 33px;
+  padding-top: 33px;
+}
+._3-right {
+  padding-top: 91px;
+}
+._4-left {
+  margin-right: 30px;
+  padding-top: 79px;
+  padding-right: 0px;
+}
+._4th-right {
+  margin-right: 66px;
+  margin-left: 64px;
+  padding-top: 47px;
+  padding-bottom: 32px;
+  padding-left: 14px;
+  text-align: center;
+}
+.app-store {
+  margin: 10px 6px 10px 5px;
+  padding: 12px 23px;
+  border-radius: 10px;
+  background-color: #e36c1e;
+  box-shadow: black 1px 1px 3px 0px;
+}
+.top-apple {
+  margin-top: 30px;
+  margin-right: 29px;
+  margin-left: -1px;
+  padding: 6px 16px;
+  border-radius: 10px;
+  background-color: #877991;
+}
+.top-links {
+  color: #736782;
+}
+.link-1 {
+  margin-top: 13px;
+  margin-right: 216px;
+  margin-bottom: 11px;
+  padding-top: 18px;
+  padding-right: 0px;
+  padding-bottom: 18px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #795da6;
+  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+.bottom-h3 {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  padding-top: 16px;
+  border: 1px none black;
+  box-shadow: none;
+  font-family: Montserrat, sans-serif;
+  color: #7e54a8;
+  font-size: 19px;
+  font-weight: 400;
+}
+.bottom-h3.left {
+  margin-top: 31px;
+}
+.blog-link {
+  margin-top: 14px;
+  margin-bottom: 0px;
+  padding-top: 22px;
+  padding-right: 0px;
+  padding-left: 178px;
+  color: #ed7e34;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+.email {
+  margin: 9px -147px 22px 158px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #f5880c;
+  text-align: center;
+}
+.end {
+  margin-right: -43px;
+  margin-bottom: 3px;
+  padding: 12px 60px 2px 536px;
+  text-align: right;
+}
+.end.words {
+  margin-top: 19px;
+  margin-left: 0px;
+  padding-right: 270px;
+  padding-left: 1px;
+  color: #948d8d;
+  font-size: 14px;
+}
+.end.logo {
+  margin-right: 0px;
+  margin-bottom: 42px;
+  margin-left: -39px;
+  padding-right: 62px;
+}
+.end-background {
+  background-color: #f7f7f7;
+}
+.border {
+  border: 1px solid #ede6e6;
 }
 @media (max-width: 991px) {
   p {
